@@ -1,0 +1,76 @@
+:root{
+  font-size: 62.5%;
+
+  --bg-color: #121214;
+  --primary-color: #42D3FF;
+  --text-color: #FFFFFF;
+  --bg-controls: rgba(66, 211, 255, 0.13);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+main{
+  justify-self: center;
+  align-self:end;
+}
+
+body{
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+
+  display: grid;
+}
+
+#timer{
+  font-size: clamp(4rem, 4rem + 10vw, 8.8rem);
+  line-height: 10.3rem;
+
+  display: flex;
+
+  margin-bottom: 1.6rem;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+
+button img{
+  width: clamp(3.2rem, 2rem + 12vw, 6.4rem);
+  height: clamp(3.2rem, 2rem + 12vw, 6.4rem);
+}
+
+
+.hide{
+  display: none;
+}
+
+#controls{
+  width: clamp(10rem, 10rem + 30vw, 22.8rem);
+  height: clamp(8rem, 5rem + 10vw, 10.8rem);
+
+  background: var(--bg-controls);
+  border-radius: 99rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+footer{
+  justify-self: end;
+  align-self: end;
+
+  padding: 0 4rem 3.2rem 0;
+}
