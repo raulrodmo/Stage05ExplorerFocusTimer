@@ -1,3 +1,5 @@
+## 👨‍💻 IN PROGRESS
+
 <h1 align="center"> Focus Timer </h1>
 
 <p align="center">
@@ -29,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto consiste em uma página com um contador regressivo onde o usuário deverá informar o tempo inicial do contador e quando a contagem for encerrada, um alerta sonoro é disparado para informar ao usuário que o tempo chegou a 00:00. O usuário poderá optar por ouvir, ou não, um som agradável durante a contagem, além das funcionalidades de play, pause e stop.
 
-- [Visite o projeto online]()
+- [Visite o projeto online](https://focustimer-raulrodmo.netlify.app/)
 
 ## 🔖 Layout
 
