@@ -1,5 +1,3 @@
-## 👨‍💻 IN PROGRESS
-
 <h1 align="center"> Focus Timer </h1>
 
 <p align="center">
